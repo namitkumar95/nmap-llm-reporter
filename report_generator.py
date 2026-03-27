@@ -5,7 +5,7 @@ from datetime import datetime
 
 def generate_report(scan_results, target):
 
-    MY_API_KEY = "AIzaSyBoeag-78qKX5majHgf0g3ztEmHdSZTkkE"
+    MY_API_KEY = "Enter_your_API_key"
 
     genai.configure(api_key=MY_API_KEY)
     model = genai.GenerativeModel('gemini-2.0-flash')
